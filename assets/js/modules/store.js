@@ -3,7 +3,7 @@ export default class StorageInLocal {
     this.numberOfBooks = this.getListBooks().length + 1;
   }
 
-  getListBooks() {
+  getListBooks = () => {
     if (localStorage.getItem('awesomeBooks') === null) {
       this.awesomeBooks = [];
     } else {
@@ -13,7 +13,7 @@ export default class StorageInLocal {
     return this.awesomeBooks;
   }
 
-  addBook(book) {
+  addBook = (book) => {
     const newBook = {
       id: this.numberOfBooks, title: book.title, author: book.author,
     };
@@ -23,7 +23,7 @@ export default class StorageInLocal {
     this.numberOfBooks += 1;
   }
 
-  removeBook(id) {
+  removeBook = (id) => {
     const awesomeBooks = this.getListBooks();
     const filteredBooks = awesomeBooks.filter((book) => book.id !== id);
     localStorage.setItem('awesomeBooks', JSON.stringify(filteredBooks));

@@ -8,7 +8,7 @@ export default class UI {
     UI.hideOrRemoveFieldet();
   }
 
-  static addBookList(book) {
+  static addBookList = (book) => {
     const TheBookList = document.getElementById('container-book-list');
 
     const divContent = document.createElement('div');
@@ -19,18 +19,18 @@ export default class UI {
     divContent.classList.add('book-row');
   }
 
-  static deleteBook(element) {
+  static deleteBook = (element) =>  {
     if (element.classList.contains('btn-remove-item')) {
       element.parentElement.remove();
     }
   }
 
-  static clearFields() {
+  static clearFields = () => {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
   }
 
-  static hideOrRemoveFieldet() {
+  static hideOrRemoveFieldet = () => {
     if (store.getListBooks().length === 0) {
       document.querySelector('#fieldset').classList.add('hide');
     } else {
