@@ -19,7 +19,7 @@ export default class UI {
     divContent.classList.add('book-row');
   }
 
-  static deleteBook = (element) =>  {
+  static deleteBook = (element) => {
     if (element.classList.contains('btn-remove-item')) {
       element.parentElement.remove();
     }

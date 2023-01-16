@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b> Awesome books </b></h3>
+  <h3><b> Awesome books with E6 </b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Awesome books]></a>
-**[Awesome books]** build a website that allows users to add and remove books from a list, we are using JavaScript objects and arrays to store the list of books and modify the DOM (Document Object Model) to display the list of books on the webpage. We also add basic events, such as clicks or form submissions, to allow users to interact with the webpage.
+**[Awesome books]** build a website that allows users to add and remove books from a list, we are using JavaScript objects with ES6 Modules and arrays to store the list of books and modify the DOM (Document Object Model) to display the list of books on the webpage. We also add basic events, such as clicks or form submissions, to allow users to interact with the webpage.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,7 +85,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://tessyrich.github.io/Awesome-books/)
+- [Live Demo Link](https://alexisjw.github.io/Awesome-E6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +108,7 @@ Clone this repository to your desired folder:
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
 
-`git clone <https://github.com/Tessyrich/Awesome-books.git>`
+`git clone <https://alexisjw.github.io/Awesome-E6>`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
@@ -127,11 +127,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ogbonna Oluchi Theresa**
-
-- GitHub: [@githubhandle](https://github.com/Tessyrich)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluchi-theresa-55b512220)
-
 👤 **Jean Walner ALEXIS**
 
 - GitHub: [@githubhandle](https://github.com/AlexisJW)
@@ -143,8 +138,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Manage books collection (plain JS with classes) and add basic CSS.]**
-- [ ] **[Create a complete website with navigation.]**
 - [ ] **[Make some changes]**
 - [ ] **[Code Review]**
 
@@ -192,7 +185,7 @@ If you like this project, let us know, please!
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/Tessyrich/Awesome-books/blob/day-0/LICENSE.md"> MIT </a>
+This project is <a href="https://github.com/AlexisJW/Awesome-E6/blob/awesome-books-with-e6/LICENSE.md"> MIT </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
